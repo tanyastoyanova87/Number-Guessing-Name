@@ -13,7 +13,7 @@ public class NumberGuessingGame {
         Random random = new Random();
         int randomNum = random.nextInt(LOWER_BOUND, UPPER_BOUND + 1);
 
-        System.out.printf("Guess the number between %d and %d! You have %d tries.", LOWER_BOUND, UPPER_BOUND, MAX_TRIES);
+        System.out.printf("Guess the number between %d and %d! You have %d tries.%n", LOWER_BOUND, UPPER_BOUND, MAX_TRIES);
 
         int tries = 0;
         boolean won = false;
